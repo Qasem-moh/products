@@ -1,14 +1,11 @@
 import React from "react";
-
+import "../css/Header.css"
 function Header() {
   return (
     <div>
-      <header>
-        <h2>Im Header</h2>
-        <h1 className="text-3xl  underline bg-red-500">
-          Hello world!
-        </h1>
-      </header>
+     <div className={"header"}>
+      <h1 className={"title"}>Qasem</h1>
+     </div>
     </div>
   );
 }
