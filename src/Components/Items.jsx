@@ -1,14 +1,7 @@
-import React from "react";
-import "../css/Items.css";
-export default function Items() {
+export default function Items(props) {
   return (
-    <div className="container">
-      <div className="item">
-        <div>hello</div>
-        <hr />
-        <div>Qasem</div>
-      </div>
-      <br />
+    <div>
+      <h3>{props.name}</h3>
     </div>
   );
 }
